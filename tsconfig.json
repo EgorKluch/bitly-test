@@ -1,0 +1,40 @@
+{
+    "compileOnSave": false,
+    "compilerOptions": {
+        "lib": [
+            "dom",
+            "es2015",
+            "es2016",
+        ],
+        "esModuleInterop": true,
+        "experimentalDecorators": true,
+        "jsx": "react",
+        "target": "es2017",
+        "module": "esnext",
+        "moduleResolution": "node",
+        "noUnusedLocals": true,
+        "noUnusedParameters": true,
+        "removeComments": false,
+        "preserveConstEnums": true,
+        "sourceMap": true,
+        "skipLibCheck": true,
+        "allowJs": true,
+        "checkJs": true,
+        "resolveJsonModule": true,
+        // strictFunctionTypes will trigger errors with decorators.
+        "strictFunctionTypes": false,
+        // strictNullChecks is almost impossible to turn on, it will give you countless errors
+        "strictNullChecks": true,
+        "noImplicitAny": true,
+        // strictPropertyInitialization depends on nullChecks
+        "strictPropertyInitialization": false,
+        "suppressImplicitAnyIndexErrors": true,
+        "noImplicitThis": true,
+        "noImplicitReturns": true,
+        "noEmit": true
+    },
+    "include": [
+        "src/**/*.ts",
+        "src/**/*.tsx"
+    ]
+}

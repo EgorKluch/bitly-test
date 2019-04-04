@@ -1,0 +1,25 @@
+.create-url {
+  width: 100%;
+  display: flex;
+
+  &__change {
+    padding: 16px 24px;
+    display: block;
+    flex: 1;
+    font-size: 18px;
+  }
+
+  &__create {
+    display: block;
+    font-size: 16px;
+    background: #ee6123;
+    padding: 16px 24px;
+    cursor: pointer;
+    color: white;
+
+    &:disabled {
+      background: #ff8f00;
+      cursor: default;
+    }
+  }
+}

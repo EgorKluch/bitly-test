@@ -1,0 +1,42 @@
+.link {
+  display: flex;
+  align-items: flex-end;
+  margin: 16px 0;
+  padding-bottom: 8px;
+  border-bottom: 1px solid #ccc;
+
+  &__urls {
+    flex: 1;
+  }
+
+  &__url {
+    display: block;
+    font-size: 16px;
+    text-decoration: none;
+    line-height: 24px;
+
+    &_full {
+      color: #444;
+    }
+
+    &_short {
+      color: #ee6123;
+    }
+  }
+
+  &__actions {
+    text-align: right;
+  }
+
+  &__remove {
+    cursor: pointer;
+    background: inherit;
+    border: none;
+    font-weight: bold;
+    color: #999;
+
+    &:hover {
+      color: #777;
+    }
+  }
+}

@@ -1,0 +1,10 @@
+.page {
+  padding: 24px;
+  background: #eee;
+  height: 100vh;
+
+  &__content {
+    max-width: 900px;
+    margin: auto;
+  }
+}
